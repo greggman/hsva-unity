@@ -32,11 +32,13 @@ is in, and only effect his body. His beak and his outline are not effected.
 This should work with more complex characters as well as long as the area you want to affect
 can be isolated by hue range.
 
-<img src="images/hsva-miyamono.gif" />
+<img src="images/hsva-miyamoto.gif" />
 
 The easist way to find a range is to load up a sprite, set the hue adjust to 0.5 (half way around
 the color wheel) and then adjust the min and max until only the part of the sprite you want
 adjusted matches the range. Once you have that figured out you be good to go
+
+You can [download or copy and paste the shader from here](https://github.com/greggman/hsva-unity/blob/master/Assets/Shaders/HSVRangeShader.shader).
 
 ### License
 
@@ -73,13 +75,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ### Attribution for the art
 
-Bird
+---
+#### Bird
 
 *   author: Nooks
 *   url: http://forums.tigsource.com/index.php?topic=9353.0
 
 ---
-Super Miyamoto
+#### Super Miyamoto
 
 *   author: larsiusprime
 *   url: http://opengameart.org/content/super-miyamoto
