@@ -5,7 +5,8 @@ This is a selective hue saturation value adjuster for Unity.
 
 <img src="images/hsva-bird.gif" />
 
-I've used it in a couple of unity projects to generate different color
+I've used it in a couple of [unity](http://github.com/greggman/hft-unity2dplatformer)
+[projects](http://github.com/greggman/hft-unity-multi-game-example) to generate different color
 characters rather than use different textures. I'm sure there are other
 maybe even better ways but this worked for me.
 
