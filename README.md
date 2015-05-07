@@ -18,7 +18,7 @@ the saturation to 1 would make everything the maximum saturation.
 Setting it 0 means leave it as is. Setting to -1 means remove
 all saturation.
 
-<img src="images/material-settings.png" width="321" height="172" />
+<img src="images/material-settings.png" />
 
 You can think of hue as a color wheel going from 0 to 1 (normally it would go from 0 to 360 degrees but
 shaders work better with numbers that go form 0 to 1).
