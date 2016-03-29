@@ -44,8 +44,8 @@ Shader "Custom/HSVRangeShader"
     {
         Tags
         {
-            "RenderType" = "Opaque"
-            "Queue" = "Transparent+1"
+            "RenderType" = "Transparent"
+            "Queue" = "Transparent"
         }
 
         Pass
