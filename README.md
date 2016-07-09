@@ -43,6 +43,14 @@ adjusted matches the range. Once you have that figured out you be good to go
 
 You can [download or copy and paste the shader from here](https://github.com/greggman/hsva-unity/blob/master/Assets/Shaders/HSVRangeShader.shader).
 
+### HSL version
+
+There is an HSL version of this shader as well. It uses the HSL color space instead of the HSV color
+space. The results are different. For example saturating a yellow gradient seems to work better
+with this shader.
+
+You can [download or copy and paste the shader from here](https://github.com/greggman/hsva-unity/blob/master/Assets/Shaders/HSLRangeShader.shader).
+
 ### License
 
 MIT License
