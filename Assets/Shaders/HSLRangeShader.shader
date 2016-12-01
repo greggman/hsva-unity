@@ -54,6 +54,16 @@ Shader "Custom/HSLRangeShader"
             "Queue" = "Transparent"
         }
 
+        Stencil
+        {
+            Ref [_Stencil]
+            Comp [_StencilComp]
+            Pass [_StencilOp]
+            ReadMask [_StencilReadMask]
+            WriteMask [_StencilWriteMask]
+        }
+        ColorMask [_ColorMask]
+
         Pass
         {
             Cull Off
